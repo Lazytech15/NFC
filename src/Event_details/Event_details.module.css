@@ -1,0 +1,253 @@
+.container {
+    padding: 1rem;
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+  
+  .backButton {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--c3);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: var(--f1);
+  }
+  
+  .backButton:hover {
+    color: #1f2937;
+  }
+  
+  .loadingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .loadingSpinner {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    border: 4px solid #e5e7eb;
+    border-top: 4px solid #1f2937;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+  }
+  
+  .cardHeader {
+    background-color: var(--c2);
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--c1);
+    border-radius: 0.5em;
+  }
+  
+  .cardTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    font-family: var(--f1);
+    text-transform: uppercase ;
+    color: var(--c5);
+  }
+  
+  .cardContent {
+    padding: 1.5rem;
+  }
+  
+  .createdDate {
+    font-size: 0.875rem;
+    color: var(--c4);
+    margin-top: 0.5rem;
+    font-family: var(--f2);
+  }
+  
+  .statusBadge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    background-color: var(--c5);
+    color: var(--c2);
+    font-family: var(--f1);
+    font-weight: 600;
+  }
+  
+  .detailsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .detailItem {
+    margin-bottom: 1rem;
+  }
+  
+  .detailLabel {
+    font-weight: 600;
+    color: var(--c2);
+    margin-bottom: 0.25rem;
+    font-family: var(--f1);
+  }
+  
+  .detailValue {
+    color: var(--c3);
+    font-family: var(--f2);
+  }
+  
+  .sectionTitle {
+    font-weight: 600;
+    color: var(--c2);
+    margin-bottom: 0.5rem;
+    font-family: var(--f1);
+  }
+  
+  .additionalInfo {
+    background-color: #f9fafb;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .errorContainer {
+    padding: 1rem;
+    background-color: #fee2e2;
+    border-radius: 0.5rem;
+    color: #dc2626;
+    text-align: center;
+  }
+
+  .sectionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .buttonGroup{
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5em;
+  }
+  .tableContainer {
+    overflow-x: auto;
+    margin-top: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 800px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-family: var(--f2);
+  }
+  
+  .table th {
+    background-color: var(--c5);
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+
+  .actionButton,
+.exportButton {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--c5);
+  font-family: var(--f1);
+  transition: background-color 0.2s;
+}
+
+.actionButton {
+  background-color: var(--c2);
+}
+
+.exportButton {
+  background-color: var(--c3);
+}
+
+.actionButton:hover {
+  background-color: #0056b3;
+}
+
+.exportButton:hover {
+  background-color: #545b62;
+}
+
+.exportButton:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: var(--f2);
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--c6);
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.actionButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.iconButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.iconButton:hover {
+  background-color: #f0f0f0;
+}
+
+.deleteButton {
+  color: #dc3545;
+}
+
+.deleteButton:hover {
+  background-color: #ffebee;
+}
