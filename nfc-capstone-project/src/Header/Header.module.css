@@ -1,0 +1,7 @@
+.Header_container h1{
+    font-family:var(--f1);
+    width: 70%;
+    margin: auto;
+    color: var(--c6);
+    text-align: center;
+}

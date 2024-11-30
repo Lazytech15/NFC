@@ -1,0 +1,46 @@
+.headclose_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+  }
+  .headclose_container h2{
+    color: var(--c6);
+    text-transform: uppercase;
+    font-family: var(--f1);
+  }
+  
+  .sheet_actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .Sheet_content{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 1em;
+    overflow-x: auto;
+    overflow-y:hidden;
+  }
+  .Sheet_content td{
+    padding: 1em;
+    text-align: center;
+    background-color: var(--c5);
+    font-family: var(--f2);
+  }
+  .Sheet_content input{
+    padding: 0.5em;
+    text-align: center;
+    font-family: var(--f2);
+    font-weight: 500;
+  }
+  .Sheet_content th{
+    padding: 1em 3em;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: var(--c4);
+    border: none;
+    font-family: var(--f1);
+  }

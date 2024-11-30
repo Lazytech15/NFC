@@ -1,0 +1,21 @@
+[debug] [2024-11-15T04:27:59.851Z] ----------------------------------------------------------------------
+[debug] [2024-11-15T04:27:59.856Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-11-15T04:27:59.857Z] CLI Version:   13.25.0
+[debug] [2024-11-15T04:27:59.857Z] Platform:      win32
+[debug] [2024-11-15T04:27:59.857Z] Node Version:  v22.11.0
+[debug] [2024-11-15T04:27:59.858Z] Time:          Fri Nov 15 2024 12:27:59 GMT+0800 (Taipei Standard Time)
+[debug] [2024-11-15T04:27:59.858Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-15T04:27:59.872Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-15T04:27:59.873Z] > authorizing via signed-in user (emmanuelablao16@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Administrator\Desktop\NFC
+
